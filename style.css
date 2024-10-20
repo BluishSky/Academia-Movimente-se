@@ -1,0 +1,128 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+}
+
+body {
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #1d1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 60%; /* Ajuste a largura para suportar as duas colunas */
+    height: 60%;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.form-container {
+    background-color: #3d3d3d;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 48%; /* Coloca os campos lado a lado ocupando quase 50% da largura */
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffd700;
+    color: #000;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: #555;
+}
+
+button {
+    width: 5%;
+    padding: 12px;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffd700;
+}
+
+.back-button {
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 10px;
+}
+
+.back-button:hover {
+    background-color: #777;
+}
+
+.submit-button {
+    background-color: #ffd700;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    float: right;
+}
