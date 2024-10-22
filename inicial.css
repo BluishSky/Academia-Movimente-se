@@ -110,6 +110,8 @@ hr {
     border: none;
     font-size: 12px;
     justify-content: center;
+    transition: background-color 0.3s;
+
 }
 
 .back-button:hover {
@@ -184,10 +186,13 @@ button {
     justify-content: space-between;
     align-items: center;
     font-size: 16px;
+    transition: background-color 0.1s;
+
 }
 
 button:hover {
-    background-color: rgb(101, 101, 255);
+    background-color: black;
+    color: white;
 }
 
 button:after {
