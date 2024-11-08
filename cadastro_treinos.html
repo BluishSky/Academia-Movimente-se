@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Treinos</title>
+    <link rel="stylesheet" href="cadastro_treinos.css">
+</head>
+<body>
+    <div class="container">
+        <button class="back-button">Voltar</button>
+        <div class="logo">
+            <img src="uploads/logoacademia.png" alt="Logo" />
+        </div>
+        <h1>Cadastro de Treinos</h1>
+        <hr />
+
+        <!-- Adicionando um flex-container para as duas colunas -->
+        <div class="flex-container">
+            <div class="box1">
+                <div class="form-row">
+                        <label for="titulo">Título do Treino</label>
+                        <input type="text" id="titulo" placeholder="digite aqui..." />
+                        <label for="id">ID</label>
+                        <input type="number" id="id" placeholder="digite aqui..." />
+                        <label for="descricao">Descrição:</label>
+                        <textarea id="descricao" maxlength="45" placeholder="digite aqui..."></textarea>
+                </div>
+            </div>
+
+            <div class="box2">
+                <label for="title">Tipo de Treino</label>
+                <div class="type-list">
+                    <button>Mobilidade</button>
+                    <button>Fortalecimento Específico</button>
+                    <button>Superiores</button>
+                    <button>CORE</button>
+                    <button>Estabilidade</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
